@@ -1,8 +1,8 @@
 // TODO: Buatlah data dari kedua user di sini
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
-const favoriteColorMonica = new Set(["Yellow", "Pink", "White", "Purple"]);
-const favoriteRestaurantMonica = new Set([
+const favoriteColorFirstUser = new Set(["Yellow", "Pink", "White", "Purple"]);
+const favoriteRestaurantFirstUser = new Set([
   "Bento",
   "Sushi",
   "Pancake",
@@ -16,8 +16,8 @@ const favoriteRestaurantMonica = new Set([
   "Sushi",
 ]);
 
-const favoriteColorWendy = new Set(["Blue", "Black", "Grey"]);
-const favoriteRestaurantWendy = new Set([
+const favoriteColorSecondUser = new Set(["Blue", "Black", "Grey"]);
+const favoriteRestaurantSecondUser = new Set([
   "Tempura",
   "Bento",
   "Sushi",
@@ -34,7 +34,7 @@ const firstUser = {
   gender: "Female",
   age: 17,
   email: "monica@dingdong.com",
-  favoriteColor: favoriteColorMonica.values(),
+  favoriteColor: favoriteColorFirstUser.values(),
   isHavePet: "Yes",
   education: [
     {
@@ -52,7 +52,7 @@ const firstUser = {
       city: "Tangerang",
     },
   ],
-  favoriteRestaurant: favoriteRestaurantMonica.values(),
+  favoriteRestaurant: favoriteRestaurantFirstUser.values(),
 };
 
 const secondUser = {
@@ -60,7 +60,7 @@ const secondUser = {
   gender: "Male",
   age: 23,
   email: "wendy@dingdong.com",
-  favoriteColor: favoriteColorWendy.values(),
+  favoriteColor: favoriteColorSecondUser.values(),
   isHavePet: "No",
   education: [
     {
@@ -83,7 +83,7 @@ const secondUser = {
       city: "Tangerang",
     },
   ],
-  favoriteRestaurant: favoriteRestaurantWendy.values(),
+  favoriteRestaurant: favoriteRestaurantSecondUser.values(),
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
