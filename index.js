@@ -34,7 +34,7 @@ const firstUser = {
   gender: "Female",
   age: 17,
   email: "monica@dingdong.com",
-  favoriteColor: favoriteColorFirstUser.values(),
+  favoriteColor: Array.from(favoriteColorFirstUser),
   isHavePet: "Yes",
   education: [
     {
@@ -52,7 +52,7 @@ const firstUser = {
       city: "Tangerang",
     },
   ],
-  favoriteRestaurant: favoriteRestaurantFirstUser.values(),
+  favoriteRestaurant: Array.from(favoriteRestaurantFirstUser),
 };
 
 const secondUser = {
@@ -60,7 +60,7 @@ const secondUser = {
   gender: "Male",
   age: 23,
   email: "wendy@dingdong.com",
-  favoriteColor: favoriteColorSecondUser.values(),
+  favoriteColor: Array.from(favoriteColorSecondUser),
   isHavePet: "No",
   education: [
     {
@@ -83,7 +83,7 @@ const secondUser = {
       city: "Tangerang",
     },
   ],
-  favoriteRestaurant: favoriteRestaurantSecondUser.values(),
+  favoriteRestaurant: Array.from(favoriteRestaurantSecondUser),
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
